@@ -1,0 +1,5 @@
+#514136 -> Dark Lava
+#A36B46 -> Brown Sugar
+#F59556 -> Atomic Tangerine
+#FACAAB -> Apricot
+#FFFFFF -> White

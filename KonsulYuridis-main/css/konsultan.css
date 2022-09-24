@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+.logo {
+    padding: 0;
+    margin-left: 2%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 2%;
+    width: 20%;
+}
+
+/* .akun {
+    padding: 0;
+    margin: 0;
+    width: 5vw;
+} */
+
+#header img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+#header {
+    height: 15vh;
+    vertical-align: middle;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+#header li {
+    float: left;
+}
+
+#header li a {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    block-size: 15vh;
+    color: #514136;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+  
+#header li a:hover:not(.logos):not(.akuns) {
+    background-color: #F59556;
+    color: #514136;
+}
+
+/* Content */
+#content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profilHeader {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    width: 100%;
+    background-color: #A36B46;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.profiles {
+    padding: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FACAAB;
+    justify-items: center;
+    align-items: center;
+}
+
+.profil1 {
+    border-radius: 5px;
+    margin: 1%;
+    width: 80%;
+    padding: 5px;
+    background-color: white;
+    color: #514136;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    justify-content:space-around;
+    align-content: center;
+}
+
+.foto {
+    width: 15vw;
+    text-align: center;
+}
+
+.deskripsi {
+    width: 50vw;
+}
+
+/* Footer */
+#footer {
+    height: 10vh;
+    text-align: center;
+    line-height: 10vh;
+    color: #514136;
+    background-color: #EEEEEE;
+}

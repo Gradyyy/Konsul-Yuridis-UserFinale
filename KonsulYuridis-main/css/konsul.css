@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+.logo {
+    padding: 0;
+    margin-left: 2%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 2%;
+    width: 20%;
+}
+
+/* .akun {
+    padding: 0;
+    margin: 0;
+    width: 5vw;
+} */
+
+#header img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+#header {
+    height: 15vh;
+    vertical-align: middle;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+#header li {
+    float: left;
+}
+
+#header li a {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    block-size: 15vh;
+    color: #514136;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+  
+#header li a:hover:not(.logos):not(.akuns) {
+    background-color: #F59556;
+    color: #514136;
+}
+
+/*Content*/
+
+.formulir {
+    color: white;
+    padding-left: 5.9%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    resize: vertical;
+    border-radius: 4px;
+}
+
+label {
+    padding: 5px 5px 5px 0;
+    display: inline-block;
+}
+
+input[type=button], input[type=reset] {
+    cursor: pointer;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 20px;
+}
+
+input {
+    height: 5vh;
+}
+
+#content {
+    height: 75vh;
+    background-color: #514136;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    color: white;
+    font-size: 25px;
+}
+
+.heading {
+    overflow: hidden;
+    text-align: center;
+}
+
+td {
+    padding: 1%;
+}
+
+.heading:before, .heading:after {
+    width: 50%;
+    content: "";
+    display: inline-block;
+    position: relative;
+    background-color: #fff;
+    vertical-align: middle;
+    height: 1px;
+}
+
+.heading:after {
+    left: 1%;
+    margin-right: -50%;
+}
+
+.heading:before {
+    margin-left: -50%;
+    right: 1%;
+}
+
+/* Footer */
+#footer {
+    height: 10vh;
+    text-align: center;
+    line-height: 10vh;
+    color: #514136;
+    background-color: #EEEEEE;
+}

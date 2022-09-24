@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+.logo {
+    padding: 0;
+    margin-left: 2%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 2%;
+    width: 20%;
+}
+
+/* .akun {
+    padding: 0;
+    margin: 0;
+    width: 5vw;
+} */
+
+#header img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+#header {
+    height: 15vh;
+    vertical-align: middle;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+#header li {
+    float: left;
+}
+
+#header li a {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    block-size: 15vh;
+    color: #514136;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+  
+#header li a:hover:not(.logos):not(.akuns) {
+    background-color: #F59556;
+    color: #514136;
+}
+
+/* Content */
+#content {
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.perdata, .pidana {
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.perdata {
+    background-color: #514136;
+    color: #F59556;
+}
+
+.pidana {
+    background-color: #F59556;
+    color: #514136;
+}
+
+.perdata a, .pidana a {
+    border: none;
+    font-size: 1.5em;
+    padding: 15px 32px;
+    margin: 3%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+
+.perdata a {
+    background-color: #F59556;
+    color: #514136;
+}
+
+.pidana a {
+    background-color: #514136;
+    color: #F59556;
+}
+
+.perdata a:hover {
+    background-color: white;
+    color: #F59556;
+}
+
+.pidana a:hover {
+    background-color: white;
+    color: #514136;
+}
+
+/* Footer */
+#footer {
+    height: 10vh;
+    text-align: center;
+    line-height: 10vh;
+    color: #514136;
+    background-color: #EEEEEE;
+}

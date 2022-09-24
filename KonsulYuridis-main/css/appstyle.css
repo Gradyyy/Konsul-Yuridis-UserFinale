@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+.logo {
+    padding: 0;
+    margin-left: 2%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 2%;
+    width: 20%;
+}
+
+/* .akun {
+    padding: 0;
+    margin: 0;
+    width: 5vw;
+} */
+
+#header img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+#header {
+    height: 15vh;
+    vertical-align: middle;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+#header li {
+    float: left;
+}
+
+#header li a {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    block-size: 15vh;
+    color: #514136;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+  
+#header li a:hover:not(.logos):not(.akuns) {
+    background-color: #F59556;
+    color: #514136;
+}
+
+/* Content: Home1 */
+.home1 {
+    background-image: url(../images/biHome.jpg);
+    height: 85vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: #cccccc;
+    color: white;
+    display: flex;
+    font-size: 2em;
+}
+
+.home1 .button1 {
+    background-color: #F59556;
+    border: none;
+    color: #514136;
+    font-size: 0.8em;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+
+.home1 .button1:hover {
+    background-color: white;
+    color: #514136;
+}
+
+/* Content: Home2 */
+.home2 {
+    display: flex;
+    padding: 5%;
+    font-size: 2em;
+    color: #514136;
+}
+
+.home2Left{
+    flex-grow: 1;
+}
+
+.home2Right {
+    flex-grow: 1;
+}
+
+/* Content: Review */
+.review {
+    background-color: #514136;
+}
+
+.review h1 {
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.reviewBox {
+    display: flex;
+    justify-content: center;
+}
+
+.box1{
+    display: flex;
+    margin: 5%;
+    padding: 1%;
+    background-color: #FACAAB;
+    border-radius: 10px;
+    color: #514136;
+    font-size: 1.1em;
+    width: 50vw;
+}
+
+.akunTestimoni {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+}
+
+.isiTestimoni {
+    width: 60%;
+}
+
+/* Footer */
+#footer {
+    height: 10vh;
+    text-align: center;
+    line-height: 10vh;
+    color: #514136;
+    background-color: #EEEEEE;
+}
